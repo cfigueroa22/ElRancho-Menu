@@ -15,11 +15,11 @@ const Contact = () => {
         <img
           src={contactLogo}
           alt="contact logo"
-          className="w-64 md:w-72 lg:w-[500px]"
+          className="w-64 md:w-72 lg:w-96"
         />
       </div>
-      <div className="flex flex-col p font-lightb-12 md:justify-around md:flex-row">
-        <div className="flex-1 px-2 font-outfit">
+      <div className="flex flex-col font-lightb-12 md:justify-around md:flex-row md:px-2 lg:px-16">
+        <div className="flex-1 px-2 pt-0 lg:pt-10 font-outfit">
           <div className="flex pb-3 mb-6 lg:mb-14">
             <div className="absolute px-2 py-2 mr-2 bg-black rounded-full">
               <img src={phone} alt="" className="w-3 md:w-4" />
@@ -73,9 +73,12 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 w-full place-items-center" id="map-section">
+        <div
+          className="flex-1 w-full my-auto place-items-center"
+          id="map-section"
+        >
           <iframe
-            className="h-[300px] px-2 pb-3 md:h-[250px] lg:h-[500px]"
+            className="h-[300px] px-2 pb-3 md:h-[280px] lg:h-[500px]"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.1451353256284!2d-76.39526392388073!3d37.12546197215623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ba816b5fdf773f%3A0x27479e540722ed3b!2sEL%20Rancho%20Mexican%20Restaurant!5e0!3m2!1sen!2sus!4v1699369223022!5m2!1sen!2sus"
             width="100%"
             allowFullScreen=""

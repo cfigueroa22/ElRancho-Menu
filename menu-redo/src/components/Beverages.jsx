@@ -22,77 +22,17 @@ const Beverages = () => {
           <p className="flex items-center justify-center text-lg font-nunito">
             Additional Flavors - frozen only
           </p>
-        </div>
-        <div className="px-2 ">
-          <h1 className="flex items-center justify-center text-xl font-semibold font-arimo md:text-3xl">
-            Regular
-          </h1>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">Lime</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $5.99
-          </div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">
-              Additional Flavors
-            </h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $6.99
-          </div>
-        </div>
-        <div className="px-2 ">
-          <h1 className="flex items-center justify-center text-xl font-semibold font-arimo md:text-3xl">
-            Jumbo
-          </h1>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">Lime</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $10.99
-          </div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">
-              Additional Flavors
-            </h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $11.99
-          </div>
-        </div>
-        <div className="px-2 pt-2">
-          <h1 className="flex items-center justify-center text-xl font-semibold font-arimo md:text-3xl">
-            Skinny Margarita
-          </h1>
-          <p className="flex items-center justify-center text-lg font-nunito md:text-lg">
-            On the rocks only.
+          <p className="flex items-center justify-center text-lg font-nunito">
+            Regular and Jumbo Sizes
           </p>
         </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">Regular</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $8.99
-          </div>
+        <div className="px-2 py-4 text-xl font-nunito md:text-3xl md:px-16">
+          <li>Lime Margarita</li>
+          <li>Skinny Margarita</li>
+          <li>Margarona</li>
+          <li>Margaritas Especiales</li>
         </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">Jumbo</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $14.99
-          </div>
-        </div>
+
         <div className="px-2 ">
           <p className="flex items-center justify-center font-nunito text-red md:text-lg">
             Top shelf
@@ -103,64 +43,6 @@ const Beverages = () => {
           <p className="flex items-center justify-center font-nunito text-red md:text-lg">
             on choice of Tequila
           </p>
-        </div>
-        <div className="px-2 pt-10 ">
-          <h1 className="flex items-center justify-center text-xl font-semibold font-arimo md:text-3xl">
-            Texas Margarita
-          </h1>
-          <p className="flex items-center justify-center font-nunito md:text-lg">
-            On the rocks only.
-          </p>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">Regular</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $6.99
-          </div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">Jumbo</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $13.99
-          </div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">Margarona</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $13.99
-          </div>
-        </div>
-        <div className="px-2 ">
-          <p className="flex items-center justify-center font-nunito md:text-lg">
-            Jumbo Margarita and coronita.
-          </p>
-        </div>
-        <div className="px-2 ">
-          <h1 className="flex items-center justify-center font-nunito md:text-lg">
-            Margaritas Especiales
-          </h1>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">Regular</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $6.99
-          </div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">Jumbo</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $13.99
-          </div>
         </div>
       </div>
       <div className="py-3 font-nunito">
@@ -171,204 +53,99 @@ const Beverages = () => {
         </div>
         <div className="flex justify-between px-2 bg-lightGray md:px-16">
           <div className="flex">
-            <p className="text-xl font-nunito md:text-3xl">Cazadores</p>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $7.00
+            <li className="text-xl font-nunito md:text-3xl">Cazadores</li>
           </div>
         </div>
         <div className="flex justify-between px-2 md:px-16">
           <div className="flex">
-            <p className="text-xl font-nunito md:text-3xl">Don Julio</p>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $9.00
+            <li className="text-xl font-nunito md:text-3xl">Don Julio</li>
           </div>
         </div>
         <div className="flex justify-between px-2 bg-lightGray md:px-16">
           <div className="flex">
-            <p className="text-xl font-nunito md:text-3xl">Patron</p>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $9.00
+            <li className="text-xl font-nunito md:text-3xl">Patron</li>
           </div>
         </div>
         <div className="flex justify-between px-2 md:px-16">
           <div className="flex">
-            <p className="text-xl font-nunito md:text-3xl">Herradura</p>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $7.00
+            <li className="text-xl font-nunito md:text-3xl">Herradura</li>
           </div>
         </div>
         <div className="flex justify-between px-2 bg-lightGray md:px-16">
           <div className="flex">
-            <p className="text-xl font-nunito md:text-3xl">Cabo Wabo</p>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $7.00
+            <li className="text-xl font-nunito md:text-3xl">Cabo Wabo</li>
           </div>
         </div>
         <div className="flex justify-between px-2 md:px-16">
           <div className="flex">
-            <p className="text-xl font-nunito md:text-3xl">Jimador</p>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $7.00
+            <li className="text-xl font-nunito md:text-3xl">Jimador</li>
           </div>
         </div>
         <div className="flex justify-between px-2 bg-lightGray md:px-16">
           <div className="flex">
-            <p className="text-xl font-nunito md:text-3xl">Jose Cuervo</p>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $7.00
+            <li className="text-xl font-nunito md:text-3xl">Jose Cuervo</li>
           </div>
         </div>
         <div className="flex justify-between px-2 md:px-16">
           <div className="flex">
-            <p className="text-xl font-nunito md:text-3xl">1800</p>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $7.00
+            <li className="text-xl font-nunito md:text-3xl">1800</li>
           </div>
         </div>
         <div className="flex justify-between px-2 bg-lightGray md:px-16">
           <div className="flex">
-            <p className="text-xl font-nunito md:text-3xl">Hornitos</p>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $7.00
+            <li className="text-xl font-nunito md:text-3xl">Hornitos</li>
           </div>
         </div>
       </div>
       <div className="py-3 bg-lightGray font-nunito">
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-semibold font-arimo md:text-3xl">
-              Mexican Beer
-            </h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $4.50
+        <div className="flex px-2 md:px-16">
+          <div className="flex mx-auto text-center">
+            <h1 className="text-3xl font-semibold font-arimo ">Mexican Beer</h1>
           </div>
         </div>
-        <div className="px-2 ">
-          <p className="flex items-center justify-center font-nunito md:text-lg">
-            Corona - Corona Light
-          </p>
-          <p className="flex items-center justify-center font-nunito md:text-lg">
-            Dos Equis - Dos Equis Lager
-          </p>
-          <p className="flex items-center justify-center font-nunito md:text-lg">
-            Negra Modelo
-          </p>
-          <p className="flex items-center justify-center font-nunito md:text-lg">
-            Modelo Especial - Victoria
-          </p>
+        <div className="px-2 py-4 text-xl font-nunito md:text-3xl md:px-16">
+          <li>Corona</li>
+          <li>Corona Light</li>
+          <li>Dos Equis</li>
+          <li>Dos Equis Lager</li>
+          <li>Negra Modelo</li>
+          <li>Modelo Especial</li>
+          <li>Victoria</li>
         </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-semibold font-arimo md:text-3xl">
+        <div className="flex px-2 pt-4 md:px-16">
+          <div className="flex mx-auto text-center">
+            <h1 className="text-3xl font-semibold font-arimo ">
               Domestic Beer
             </h1>
           </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $3.50
+        </div>
+        <div className="px-2 py-4 text-xl font-nunito md:text-3xl md:px-16">
+          <li>Michelob Ultra</li>
+          <li>Budweiser</li>
+          <li>Bud Light</li>
+          <li>Coors Light</li>
+          <li>Miller Liet</li>
+        </div>
+        <div className="flex px-2 pt-4 md:px-16">
+          <div className="flex mx-auto text-center">
+            <h1 className="text-3xl font-semibold font-arimo ">
+              Imported Beer
+            </h1>
           </div>
         </div>
-        <div className="px-2 ">
-          <p className="flex items-center justify-center font-nunito md:text-lg">
-            Michelob Ultra
-          </p>
-          <p className="flex items-center justify-center font-nunito md:text-lg">
-            Budweiser - Bud Light
-          </p>
-          <p className="flex items-center justify-center font-nunito md:text-lg">
-            Coors Light - Miller Lite
-          </p>
+        <div className="px-2 py-4 text-xl font-nunito md:text-3xl md:px-16">
+          <li>Heineken</li>
         </div>
         <div className="px-2 pt-10">
           <h1 className="flex items-center justify-center pt-4 text-3xl font-semibold font-arimo">
             Draft Beer
           </h1>
-          <p className="flex items-center justify-center text-xl font-nunito md:text-3xl">
-            Bud Light or Michelob Ultra
-          </p>
         </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">Pitcher</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $10.99
-          </div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl font-nunito md:text-3xl">34 oz. Mug</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $6.99
-          </div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">17 oz. Mug</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $4.99
-          </div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">12 oz. Mug</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $2.99
-          </div>
-        </div>
-        <div className="px-2 ">
-          <p className="flex items-center justify-center text-xl md:text-3xl">
-            Dos Equis
-          </p>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Pitcher</h1>
-          </div>
-          <div className="text-xl font-extrabold md:text-3xl">$12.99</div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">34 oz. Mug</h1>
-          </div>
-          <div className="text-xl font-extrabold md:text-3xl">$7.99</div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">17 oz. Mug</h1>
-          </div>
-          <div className="text-xl font-extrabold md:text-3xl">$5.99</div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">12 oz. Mug</h1>
-          </div>
-          <div className="text-xl font-extrabold md:text-3xl">$3.99</div>
-        </div>
-        <div className="px-2 ">
-          <p className="flex items-center justify-center md:text-xl">
-            Imported Beer
-          </p>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Heineken</h1>
-          </div>
-          <div className="text-xl font-extrabold md:text-3xl font-nunito">
-            $4.50
-          </div>
+        <div className="px-2 py-4 text-xl font-nunito md:text-3xl md:px-16">
+          <li>Bud Light</li>
+          <li>Michelob Ultra</li>
+          <li>Dos Equis</li>
+          <li>Modelo Especial</li>
         </div>
       </div>
       <div className="py-3 font-nunito">
@@ -377,70 +154,13 @@ const Beverages = () => {
             Specialty Drinks
           </p>
         </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">From</h1>
-          </div>
-          <div className="text-xl md:text-3xl">
-            <span className="font-extrabold font-nunito">$6.50</span> to{" "}
-            <span className="font-extrabold font-nunito">$9.99</span>
-          </div>
+        <div className="px-2 py-4 text-xl font-nunito md:text-3xl md:px-16">
+          <li>Long Island Iced Tea</li>
+          <li>Texas Hurricane</li>
+          <li>Mixed Drinks</li>
+          <li>Daiquiris</li>
         </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Long Island Ice Tea</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $9.99
-          </div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Texas Hurricane</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $9.99
-          </div>
-        </div>
-        <div className="px-2 ">
-          <p className="flex items-center justify-center text-red md:text-lg">
-            (Please ask waiter before ordering)
-          </p>
-        </div>
-        <div className="px-2 ">
-          <h1 className="flex items-center justify-center text-xl font-semibold font-arimo md:text-3xl">
-            Daiquiris
-          </h1>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Regular</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $6.99
-          </div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Jumbo</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $11.99
-          </div>
-        </div>
-        <div className="px-2 ">
-          <h1 className="flex items-center justify-center text-xl font-semibold font-arimo md:text-3xl">
-            Mixed Drinks
-          </h1>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">House, single liquor</h1>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $6.50
-          </div>
-        </div>
+
         <div className="px-2 ">
           <p className="flex items-center justify-center text-red md:text-lg">
             Top shelf
@@ -452,97 +172,72 @@ const Beverages = () => {
             on choice of Tequila
           </p>
         </div>
+        <div className="px-2 ">
+          <p className="flex items-center justify-center text-red md:text-lg">
+            (Please ask waiter before ordering)
+          </p>
+        </div>
         <div className="px-2 pt-4 pb-2">
-          <h1 className="flex items-center justify-center text-xl font-semibold font-arimo md:text-3xl">
+          <h1 className="flex items-center justify-center text-3xl font-semibold font-arimo">
             Wines
           </h1>
         </div>
-        <div className="px-2 ">
-          <p className="flex items-center justify-center md:text-lg">
-            Burgundy - Sangria - Chardonnay
-          </p>
-          <p className="flex items-center justify-center md:text-lg">
-            Lambrusco - Chablis - Pinot Grigio
-          </p>
-          <p className="flex items-center justify-center md:text-lg">
-            White Zinfandel - Cabernet
-          </p>
+        <div className="px-2 py-4 text-xl font-nunito md:text-3xl md:px-16">
+          <li>Burgundy</li>
+          <li>Sangria</li>
+          <li>Chardonnay</li>
+          <li>Lambrusco</li>
+          <li>Chablis</li>
+          <li>Pinot Grigio</li>
+          <li>White Zinfandel</li>
+          <li>Cabernet</li>
         </div>
       </div>
       <div className="py-3 bg-lightGray font-nunito">
+        <div className="flex px-2 md:px-16">
+          <div className="flex items-center mx-auto text-center">
+            <h1 className="text-3xl ">Soft Drinks</h1>
+            <p className="md:text-xl md:pl-2"> (from the fountain)</p>
+          </div>
+        </div>
+        <div className="px-2 py-4 text-xl font-nunito md:text-3xl md:px-16">
+          <li>Coke</li>
+          <li>Diet Coke</li>
+          <li>Sprite</li>
+          <li>Mr. Pibb</li>
+          <li>Pink Lemonade</li>
+          <li>Coffee</li>
+          <li>Iced Tea</li>
+          <li>Agua de Horchata</li>
+        </div>
+
+        <div className="flex px-2 md:px-16">
+          <div className="flex mx-auto text-center">
+            <h1 className="text-3xl">Bottled Soft Drinks</h1>
+          </div>
+        </div>
+        <div className="px-2 py-4 text-xl font-nunito md:text-3xl md:px-16">
+          <li>Root Beer</li>
+          <li>Jarritos</li>
+          <li>Tamarindo</li>
+          <li>Piña</li>
+          <li>Sangria</li>
+          <li>Mandarina</li>
+          <li>Toronja</li>
+          <li>Manzanita (Sidral)</li>
+        </div>
+
         <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Soft Drinks</h1>
-            <p className="md:text-xl md:pl-2">(from the fountain)</p>
-          </div>
-          <div className="text-xl font-extrabold font-nunito md:text-3xl">
-            $2.50
+          <div className="flex mx-auto text-center">
+            <h1 className="text-3xl ">Juice</h1>
           </div>
         </div>
-        <div className="px-2 ">
-          <p className="flex items-center justify-center md:text-lg">
-            Coke - Diet Coke - Sprite
-          </p>
-          <p className="flex items-center justify-center md:text-lg">
-            Mr. Pibb - Pink Lemonade
-          </p>
-          <p className="flex items-center justify-center md:text-lg">
-            Coffee - Iced Tea
-          </p>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Bottled Soft Drinks</h1>
-          </div>
-          <div className="text-xl font-extrabold md:text-3xl">$2.99</div>
-        </div>
-        <div className="px-2 ">
-          <p className="flex items-center justify-center md:text-lg">
-            Root Beer - Jarritos - Tamarindo
-          </p>
-          <p className="flex items-center justify-center md:text-lg">
-            Piña - Sangria - Mandarina
-          </p>
-          <p className="flex items-center justify-center md:text-lg">
-            Toronja - Manzanita
-          </p>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Juice</h1>
-          </div>
-          <div className="text-xl font-extrabold md:text-3xl">$2.99</div>
-        </div>
-        <div className="px-2 ">
-          <p className="flex items-center justify-center md:text-lg">
-            Orange - Cranberry
-          </p>
-          <p className="flex items-center justify-center md:text-lg">
-            Apple - Pineapple - Milk
-          </p>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Agua de Horchata</h1>
-          </div>
-          <div className="text-xl font-extrabold md:text-3xl">$3.00</div>
-        </div>
-        <div className="px-2 ">
-          <h1 className="flex items-center justify-center md:text-lg">
-            Non-Alcoholic Drinks
-          </h1>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Regular</h1>
-          </div>
-          <div className="text-xl font-extrabold md:text-3xl">$5.99</div>
-        </div>
-        <div className="flex justify-between px-2 md:px-16">
-          <div className="flex">
-            <h1 className="text-xl md:text-3xl">Jumbo</h1>
-          </div>
-          <div className="text-xl font-extrabold md:text-3xl">$7.99</div>
+        <div className="px-2 py-4 text-xl font-nunito md:text-3xl md:px-16">
+          <li>Orange</li>
+          <li>Cranberry</li>
+          <li>Apple</li>
+          <li>Pineapple</li>
+          <li>Milk</li>
         </div>
       </div>
     </div>

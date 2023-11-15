@@ -17,7 +17,7 @@ const Lunch = () => {
             <p className="pr-3">No. 1</p>
             <p className="">Speedy Gonzales</p>
           </div>
-          <div className="text-xl font-semibold md:text-3xl">$5.99</div>
+          <div className="text-xl font-semibold md:text-3xl">$6.99</div>
         </div>
         <div className="px-2 font-nunito md:text-lg">
           <p>One taco, one enchilada, choice of rice or beans.</p>

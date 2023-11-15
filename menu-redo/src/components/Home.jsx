@@ -23,7 +23,7 @@ import Beverages from "./Beverages";
 import Full from "./Full";
 
 const Home = () => {
-  // // HOVERS
+  // HOVERS
   // const [isHoverLunch, setIsHoverLunch] = useState(false);
   // const [isHoverApp, setIsHoverApp] = useState(false);
   // const [isHoverKids, setIsHoverKids] = useState(false);
@@ -42,9 +42,9 @@ const Home = () => {
   // const [isHoverSoup, setIsHoverSoup] = useState(false);
   // const [isHoverDesserts, setIsHoverDesserts] = useState(false);
   // const [isHoverBev, setIsHoverBev] = useState(false);
-  // const [isHoverFull, setIsHoverFull] = useState(false);
+  const [isHoverFull, setIsHoverFull] = useState(false);
 
-  // // HANDLERS
+  // HANDLERS
   const [lunchMenu, setLunchMenu] = useState(false);
   const [appetizerMenu, setAppetizerMenu] = useState(false);
   const [kidsMenu, setKidsMenu] = useState(false);
@@ -65,14 +65,14 @@ const Home = () => {
   const [bevMenu, setBevMenu] = useState(false);
   const [fullMenu, setFullMenu] = useState(false);
 
-  // // FULL MENU SECTION HOVER
+  // FULL MENU SECTION HOVER
 
-  // const handleHoverFull = () => {
-  //   setIsHoverFull(true);
-  // };
-  // const handleMouseLeaveFull = () => {
-  //   setIsHoverFull(false);
-  // };
+  const handleHoverFull = () => {
+    setIsHoverFull(true);
+  };
+  const handleMouseLeaveFull = () => {
+    setIsHoverFull(false);
+  };
 
   // // BEV SECTION HOVER
 
@@ -428,10 +428,6 @@ const Home = () => {
     }
   };
 
-  // const fullMenuHandler = () => {
-  //   setFullMenu(!fullMenu);
-  // };
-
   return (
     <div>
       <div className="relative z-10 flex items-center justify-center">
@@ -440,7 +436,7 @@ const Home = () => {
           <p className="text-white font-nunito">Dress up for halloween</p>
         </div>
       </div>
-      <div className="flex flex-col h-screen mt-20 md:h-auto md:flex-row md:mt-0">
+      <div className="flex flex-col h-screen mt-20 md:h-auto md:flex-row-reverse md:mt-0 md:px-2 lg:px-16">
         <div className="flex flex-col items-center justify-center flex-1 px-2 md:px-4 lg:px-4 ">
           <p className="text-3xl font-bold text-center font-amatic md:text-3xl lg:text-5xl">
             We are delighted to have you dine with us! If there is anything we

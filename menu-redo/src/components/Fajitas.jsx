@@ -53,7 +53,7 @@ const Fajitas = () => {
               Chicken And Beef Fajitas for two (2)
             </p>
           </div>
-          <div className="text-xl md:text-3xl">$16.99</div>
+          <div className="text-xl md:text-3xl">$26.99</div>
         </div>
         <div className="px-2 font-nunito md:text-lg">
           <p>

@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 
 const Appetizers = () => {
   return (
@@ -214,6 +213,17 @@ const Appetizers = () => {
           </div>
           <div className="text-xl font-semibold font-arimo md:text-3xl">
             $8.99
+          </div>
+        </div>
+      </div>
+      <div className="py-3 font-nunito">
+        <div className="flex justify-between px-2 text-xl font-semibold font-arimo">
+          <div className="flex items-center">
+            <p className=" md:text-3xl">Chips and Salsa To Go</p>
+          </div>
+          <div>
+            <p className=" md:text-3xl">(Small) $2.99</p>
+            <p className=" md:text-3xl">(Large) $6.99</p>
           </div>
         </div>
       </div>

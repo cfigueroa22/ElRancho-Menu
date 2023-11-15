@@ -320,7 +320,21 @@ const Specialty = () => {
           <p>Five chicken tenders and french fries.</p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray ">
+      <div className="py-3 bg-lightGray">
+        <div className="flex justify-between px-2 font-semibold font-arimo">
+          <div className="flex">
+            <p className="text-xl md:text-3xl">Chicken Wings (12)</p>
+          </div>
+          <div className="text-xl md:text-3xl">$13.99</div>
+        </div>
+        <div className="px-2 font-nunito md:text-lg">
+          <p>
+            Served covered with our special wing sauce and celery sticks. Ranch
+            dressing or White Salsa available upon request.
+          </p>
+        </div>
+      </div>
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Enchiladas Suizas</p>
@@ -334,7 +348,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Enchiladas With Rice</p>
@@ -345,7 +359,7 @@ const Specialty = () => {
           <p>Three chicken or beef enchiladas with rice and cheese sauce.</p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray">
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">
@@ -358,7 +372,7 @@ const Specialty = () => {
           <p>Lettuce, tomato, onion, bell pepper, and shredded cheese.</p>
         </div>
       </div>
-      <div className="py-3">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Fajita Salad (Shrimp)</p>
@@ -369,7 +383,7 @@ const Specialty = () => {
           <p>Lettuce, tomato, onion, bell pepper, and shredded cheese.</p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray">
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">La Changa</p>
@@ -383,7 +397,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Los Amigos</p>
@@ -397,7 +411,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray">
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Mexican Stew</p>
@@ -412,7 +426,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3 f">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">
@@ -428,7 +442,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray">
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Nachos al Carbon</p>
@@ -442,7 +456,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Quesadilla Dinner</p>
@@ -453,7 +467,7 @@ const Specialty = () => {
           <p>Chicken or beef quesadilla. Served with beans and rice.</p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray">
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Quesadilla Rellena</p>
@@ -468,7 +482,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Quesadilla Grande</p>
@@ -483,7 +497,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray">
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Quesadilla Grande Shrimp</p>
@@ -498,7 +512,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Seafood Nachos</p>
@@ -512,7 +526,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray">
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Shrimp Chimichangas</p>
@@ -526,7 +540,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Shrimp Quesadilla Rellena</p>
@@ -540,7 +554,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray">
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Special Dinner</p>
@@ -554,7 +568,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Arroz Texano</p>
@@ -568,7 +582,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray">
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Nachos Texanos</p>
@@ -582,7 +596,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Taco Salad Fajita</p>
@@ -597,7 +611,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray">
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Taco Fajita Salad Shrimp</p>
@@ -612,7 +626,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Taco Salad</p>
@@ -626,7 +640,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3 bg-lightGray">
+      <div className="py-3 ">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Taquitos Flautas</p>
@@ -640,7 +654,7 @@ const Specialty = () => {
           </p>
         </div>
       </div>
-      <div className="py-3">
+      <div className="py-3 bg-lightGray">
         <div className="flex justify-between px-2 font-semibold font-arimo">
           <div className="flex">
             <p className="text-xl md:text-3xl">Shrimp Nachos</p>
@@ -651,6 +665,63 @@ const Specialty = () => {
           <p>
             Cheese nachos topped with grilled shrimp, onions, bell peppers, and
             tomatoes.
+          </p>
+        </div>
+      </div>
+      <div className="py-3 ">
+        <div className="flex justify-between px-2 font-semibold font-arimo">
+          <div className="flex">
+            <p className="text-xl md:text-3xl">Burritos Tipicos</p>
+          </div>
+          <div className="text-xl md:text-3xl">$10.99</div>
+        </div>
+        <div className="px-2 font-nunito md:text-lg">
+          <p>
+            Two rolled flour tortillas filled with beef and beans, topped with
+            nacho cheese sauce.
+          </p>
+        </div>
+      </div>
+      <div className="py-3 bg-lightGray">
+        <div className="flex justify-between px-2 font-semibold font-arimo">
+          <div className="flex">
+            <p className="text-xl md:text-3xl">Enchiladas Tapatias</p>
+          </div>
+          <div className="text-xl md:text-3xl">$12.99</div>
+        </div>
+        <div className="px-2 font-nunito md:text-lg">
+          <p>
+            Four enchiladas (one beef, one chicken, one cheese, one bean) topped
+            with lettuce, tomatoes, and sour cream.
+          </p>
+        </div>
+      </div>
+      <div className="py-3 ">
+        <div className="flex justify-between px-2 font-semibold font-arimo">
+          <div className="flex">
+            <p className="text-xl md:text-3xl">Yolandas</p>
+          </div>
+          <div className="text-xl md:text-3xl">$12.99</div>
+        </div>
+        <div className="px-2 font-nunito md:text-lg">
+          <p>
+            Three chicken enchiladas, topped with lettuce, guacamole, and sour
+            cream. Served with rice.
+          </p>
+        </div>
+      </div>
+      <div className="py-3 bg-lightGray">
+        <div className="flex justify-between px-2 font-semibold font-arimo">
+          <div className="flex">
+            <p className="text-xl md:text-3xl">Nachos Supreme</p>
+          </div>
+          <div className="text-xl md:text-3xl">$13.99</div>
+        </div>
+        <div className="px-2 font-nunito md:text-lg">
+          <p>
+            Cheese nachos with assorted toppings of ground beef, chopped
+            chicken, and beans. All covered with shredded lettuce, tomatoes, and
+            sour cream.
           </p>
         </div>
       </div>

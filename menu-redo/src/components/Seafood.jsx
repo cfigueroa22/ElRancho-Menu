@@ -123,7 +123,7 @@ const Seafood = () => {
           <div className="flex">
             <p className="text-xl md:text-3xl">Shrimp Cocktail (Grande)</p>
           </div>
-          <div className="text-xl md:text-3xl">$15.99</div>
+          <div className="text-xl md:text-3xl">$14.99</div>
         </div>
         <div className="px-2 font-nunito md:text-lg">
           <p>
@@ -138,7 +138,7 @@ const Seafood = () => {
           <div className="flex">
             <p className="text-xl md:text-3xl">Pollo y Camaron</p>
           </div>
-          <div className="text-xl md:text-3xl">$15.99</div>
+          <div className="text-xl md:text-3xl">$16.99</div>
         </div>
         <div className="px-2 font-nunito md:text-lg">
           <p>
